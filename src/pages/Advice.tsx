@@ -45,7 +45,7 @@ const Advice = () => {
   return (
     <main className="flex justify-center items-center bg-primary-950 h-screen p-4 sm:p-0">
       <section
-        className={`flex flex-col items-center bg- bg-primary-900 text-center p-6 sm:p-15 pt-10 pb-0  max-w-xl gap-4 rounded-2xl shadow-2xl hover:shadow-secondary-300 transition duration-700 ease-in cursor-default min-w-90 min-h-50 ${loading && "animate-bounce"}`}
+        className={`flex flex-col items-center bg- bg-primary-900 text-center p-6 sm:p-15 pt-10 pb-0  max-w-xl gap-4 rounded-2xl shadow-2xl hover:shadow-secondary-300 transition duration-700 ease-in cursor-default sm:min-w-90 min-h-50 ${loading && "animate-bounce"}`}
       >
         {!loading && <p className="text-secondary-300">ADVICE #{advice?.id}</p>}
         <h1 className="text-xl sm:text-3xl font-bold text-white">
